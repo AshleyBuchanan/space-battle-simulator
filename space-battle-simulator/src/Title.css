@@ -1,0 +1,9 @@
+.title {
+    flex: 0 0 100px;
+    align-content: center;
+    font-size: 2em;
+    margin: 30px;
+    text-align: center;
+    text-shadow: 0 0 20px hsla(0, 0%, 100%, .5);
+    /* border: 1px solid white; */
+}

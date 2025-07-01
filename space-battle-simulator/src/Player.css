@@ -1,0 +1,41 @@
+.player {
+    flex: 0 0 200px;
+    margin: 0 30px;
+    color: hsl(0, 0%, 80%);
+    /* default to grey if not named Player or Enemy */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+.player-Player {
+    color: hsl(120, 100%, 70%);
+}
+
+.player-Enemy {
+    color: hsl(0, 100%, 60%);
+}
+
+.alive {
+    font-size: x-large;
+    color: hsl(0, 100%, 60%);
+    text-shadow: 0 -1px 2px white,
+        0 0 20px hsla(0, 0%, 100%, .35);
+}
+
+.dead {
+    font-size: x-large;
+    color: white;
+    text-shadow: 0 -1px 2px white,
+        0 0 20px hsla(0, 0%, 100%, .35);
+}
+
+.value {
+    transition: color 250ms;
+}
+
+.value-hit {
+    color: white;
+}

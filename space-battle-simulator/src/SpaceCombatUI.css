@@ -1,0 +1,12 @@
+.space-combat-ui {
+    justify-self: center;
+    font-size: 1em;
+    text-align: center;
+    text-shadow: 0 0 20px hsla(0, 0%, 100%, .5);
+    flex: 0 0 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+}
