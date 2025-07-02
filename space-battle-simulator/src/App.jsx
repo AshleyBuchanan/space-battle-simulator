@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Title from './Title';
 import SpaceCombatUI from './SpaceCombatUI';
 import MessageCenter from './MessageCenter';
-import './App.css'
+import './css/App.css'
 
 function App() {
     const [message, setMessage] = useState('Engage the Enemy!');

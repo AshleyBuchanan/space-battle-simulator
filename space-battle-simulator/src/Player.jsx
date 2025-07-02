@@ -1,5 +1,5 @@
 import React from "react";
-import './Player.css';
+import './css/Player.css';
 
 //this is to show a heart or skull depending on health.
 const checkStatus = (points) => {
